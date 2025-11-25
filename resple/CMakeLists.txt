@@ -75,6 +75,6 @@ install(TARGETS RESPLE
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS Mapping
   DESTINATION lib/${PROJECT_NAME})
-ament_export_dependencies(rclcpp yaml-cpp message_runtime livox_ros_driver livox_ros_driver2 livox_interfaces)
+ament_export_dependencies(rclcpp yaml-cpp livox_ros_driver livox_ros_driver2 livox_interfaces)
 ament_export_libraries(${PROJECT_NAME})
 ament_package()
